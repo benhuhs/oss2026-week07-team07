@@ -49,7 +49,20 @@ section {
 
 /* ===== B: #schedule ===== */
 /* 선택자는 #schedule 로 시작합니다. 예: #schedule table { ... } */
+#schedule table{
+  width: 100%;
+  border-collapse: collapse;
+}
 
+#schedule th, #schedule td{
+  padding: 10px;
+  border-bottom: 1px solid #cccccc;
+  text-align: left;
+}
+
+#schedule th{
+  background-color: #f4f4f4;
+}
 
 /* ===== C: #faq ===== */
 /* 선택자는 #faq 로 시작합니다. 예: #faq .question { ... } */
